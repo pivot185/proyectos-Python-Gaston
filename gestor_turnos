@@ -1,0 +1,27 @@
+import json
+
+try:
+    with open("turnos.json", "r") as archivo:
+        turnos_reservados = json.load(archivo)
+except FileNotFoundError:
+    turnos_reservados = {}
+
+
+horarios_disponibles = ["09:00", "10:00", "11:00", "12:00", "13:00"]
+
+print("Horarios disponibles:")
+for horario in horarios_disponibles:
+    if horario not in turnos_reservados:
+        print(horario)
+
+nombre = input("Ingrese su nombre: ")
+turno = input("Elija un horario: ")
+
+if turno in horarios_disponibles and turno not in turnos_reservados:
+    turnos_reservados[turno] = nombre
+    print(f"Turno reservado para {nombre} a las {turno}")
+    
+    with open("turnos.json", "w") as archivo:
+        json.dump(turnos_reservados, archivo, indent=4)
+else:
+    print("Ese horario no está disponible.")
