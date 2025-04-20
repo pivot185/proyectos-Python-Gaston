@@ -1,0 +1,39 @@
+# Proyectos en Python - Gastón
+
+¡Bienvenido a mi colección de mini proyectos en Python!  
+Estos ejercicios fueron creados mientras aprendo y practico programación. Algunos con ayuda, otros por mi cuenta.
+
+---
+
+## 1. Lista de Tareas
+**Archivo:** `Lista_de_tareas.py`  
+**Descripción:**  
+Una app de consola para agregar, marcar y eliminar tareas.  
+Usa listas de diccionarios y estructuras de control.
+
+**Funciones principales:**
+- Agregar nuevas tareas
+- Marcar tareas como completadas
+- Eliminar tareas completadas
+
+---
+
+## 2. Gestor de Turnos
+**Archivo:** `gestor_turnos_menu.py`  
+**Descripción:**  
+Sistema que permite a los usuarios elegir un horario disponible y guardar la reserva.  
+Usa archivo `.json` para persistencia de datos.
+
+---
+
+## 3. Simulador de Compra
+**Archivo:** `simulador_compra.py`  
+**Descripción:**  
+Calcula total de compra en función del producto elegido, cantidad y posibles descuentos.
+
+---
+
+### Contacto
+**Gastón Pivovar**  
+Montevideo, Uruguay  
+[gastonpivovar@gmail.com](mailto:gastonpivovar@gmail.com)  
