@@ -1,3 +1,4 @@
+![Banner](./IMG_2014.jpeg)
 # Proyectos en Python - Gastón
 
 ¡Bienvenido a mi colección de mini proyectos en Python!  
