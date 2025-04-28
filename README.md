@@ -34,6 +34,18 @@ Calcula total de compra en función del producto elegido, cantidad y posibles de
 
 ---
 
+4. Calculadora de Precios
+
+Archivo: calculadora_precios.py
+Descripción:
+Programa que permite ingresar precios de productos, los guarda en una lista, los muestra uno a uno y calcula el total a pagar con redondeo a dos decimales.
+
+Funciones principales:
+	•	Ingresar precios
+	•	Mostrar lista de precios
+	•	Calcular y mostrar el total
+
+
 ### Contacto
 **Gastón Pivovar**  
 Montevideo, Uruguay  
