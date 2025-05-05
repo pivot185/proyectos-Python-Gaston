@@ -36,7 +36,7 @@ Calcula total de compra en función del producto elegido, cantidad y posibles de
 
 ## 4. Calculadora de Precios
 
-Archivo: calculadora_precios.py
+**Archivo:** 'calculadora_precios.py'
 **Descripción:**
 Programa que permite ingresar precios de productos, los guarda en una lista, los muestra uno a uno y calcula el total a pagar con redondeo a dos decimales.
 
@@ -45,6 +45,20 @@ Funciones principales:
 	•	Mostrar lista de precios
 	•	Calcular y mostrar el total
 
+---
+
+##5. Gestor de Notas Escolares
+
+**Archivo: 'notas_estudiantes.py'
+**Descripción:**
+Aplicación simple de consola que permite ingresar el nombre y la nota de varios estudiantes.
+Muestra al final una lista con cada alumno y su calificación redondeada.
+Utiliza listas de diccionarios, for, input() y f-strings.
+
+Funciones principales:
+	•	Ingresar nombre y nota de estudiantes
+	•	Mostrar listado de notas con formato claro
+	•	Redondeo de nota a dos decimales
 
 ### Contacto
 **Gastón Pivovar**  
