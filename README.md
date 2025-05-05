@@ -47,7 +47,7 @@ Funciones principales:
 
 ---
 
-##5. Gestor de Notas Escolares
+## 5. Gestor de Notas Escolares
 
 **Archivo:**  `notas_estudiantes.py`
 **Descripción:**
